@@ -26,6 +26,7 @@ specifiers:
   react-hook-form: ^7.45.4
   react-hot-toast: ^2.4.1
   react-icons: ^4.10.1
+  react-spinners: ^0.13.8
   shared: link:@supabase/auth-ui/shared
   stripe: ^13.3.0
   supabase: ^1.88.0
@@ -59,6 +60,7 @@ dependencies:
   react-hook-form: 7.45.4_react@18.2.0
   react-hot-toast: 2.4.1_biqbaboplfbrettd7655fr4n2y
   react-icons: 4.10.1_react@18.2.0
+  react-spinners: 0.13.8_biqbaboplfbrettd7655fr4n2y
   shared: link:@supabase/auth-ui/shared
   stripe: 13.3.0
   tailwind-merge: 1.14.0
@@ -2991,6 +2993,16 @@ packages:
       tslib: 2.6.2
       use-callback-ref: 1.3.0_j3ahe22lw6ac2w6qvqp4kjqnqy
       use-sidecar: 1.1.2_j3ahe22lw6ac2w6qvqp4kjqnqy
+    dev: false
+
+  /react-spinners/0.13.8_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-3e+k56lUkPj0vb5NDXPVFAOkPC//XyhKPJjvcGjyMNPWsBKpplfeyialP74G7H7+It7KzhtET+MvGqbKgAqpZA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-style-singleton/2.2.1_j3ahe22lw6ac2w6qvqp4kjqnqy:
